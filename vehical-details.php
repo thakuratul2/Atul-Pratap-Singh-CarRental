@@ -340,19 +340,17 @@ $_SESSION['brndid']=$result->bid;
                 <input type="submit" class="btn"  name="submit" value="Book Now">
               </div>
               <?php } else { ?>
-<a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">Login For Book</a>
+<a href="#loginform" class="btn btn-xs uppercase" data-toggle="modal" data-dismiss="modal">Login For Rent Car</a>
 
               <?php } ?>
           </form>
         </div>
       </aside>
-      <!--/Side-Bar--> 
     </div>
     
     <div class="space-20"></div>
     <div class="divider"></div>
     
-    <!--Similar-Cars-->
     <div class="similar_cars">
       <h3>Similar Cars</h3>
       <div class="row">
